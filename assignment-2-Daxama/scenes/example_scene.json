@@ -1,0 +1,38 @@
+{
+    "camera": {
+        "type": "perspective",
+        "position": [0,1,-10],
+        "lookat": [0,0,0],
+        "up": [0,1,0],
+        "fov": 80
+    },
+    "root": {
+        "name": "node0",
+        "type": "node",
+        "translation": [0,0,0],
+        "rotation": [0,0,0],
+        "scale": [1,1,1],
+        "children": [
+            {
+                "name": "plane_low_res",
+                "type": "object",
+                "obj": "../objects/plane_low_res.obj",
+                "color": "#c2c2c2",
+                "translation": [0,-1,0],
+                "rotation": [0,0,0],
+                "scale": [10,1,10],
+                "children": []
+            },
+            {
+                "name": "teapot",
+                "type": "object",
+                "obj": "../objects/teapot.obj",
+                "color": "#729e9a",
+                "translation": [0,0,0],
+                "rotation": [0,0,0],
+                "scale": [1,1,1],
+                "children": []
+            }
+        ]
+    }
+}
